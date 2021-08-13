@@ -25,7 +25,7 @@ public final class Navigator: ObservableObject {
 	
 	private let initialPath: String
 		
-	init(initialPath: String = "/") {
+	public init(initialPath: String = "/") {
 		self.initialPath = initialPath
 		self.historyStack = [initialPath]
 	}
